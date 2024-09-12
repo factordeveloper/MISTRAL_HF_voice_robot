@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice-powered Mistral Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Voice-powered Mistral Chatbot</h1>
+        
+        <button id="start-record-btn">Start Recording</button>
+        <p id="recorded-text"></p>
+
+        <div class="input-container">
+            <textarea id="promptInput" placeholder="Or type your question here..."></textarea>
+            <button id="sendButton">Send</button>
+        </div>
+        
+        <div id="responseContainer"></div>
+
+        <button id="speakResponseBtn">Speak Response</button>
+    </div>
+
+    <script src="fun.js"></script>
+</body>
+</html>
